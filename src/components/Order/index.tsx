@@ -33,7 +33,7 @@ export function Order({...props} : OrderProps) {
     <Container >
       <ContainerHeader className="head" onClick={toggleDropdown}>
         <Cell>
-          <TitleHeader>{props.client.nome}</TitleHeader> 
+          <TitleHeader>{props.client.email}</TitleHeader> 
         </Cell>
 
         <Cell>
