@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { pixelToRem } from "../../utils/functions";
 
-export const Container = styled.div`
+export const Container = styled.button`
     display: flex;
     flex-direction: row;
     background: var(--gray);

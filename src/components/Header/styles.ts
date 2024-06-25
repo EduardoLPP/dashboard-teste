@@ -23,7 +23,7 @@ export const Logo = styled.div`
 
 export const Name = styled.p`
     margin-left: ${pixelToRem(20)};
-    font-size: ${pixelToRem(20)};
+    font: var(--heading);
     color: var(--white);
 `;
 

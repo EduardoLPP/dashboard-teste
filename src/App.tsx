@@ -18,7 +18,6 @@ function App() {
         <List />
       </Container>
       
-      <Router>
         <Routes>
           {RouteList.map((routeItem, index) => {
             return (
@@ -29,7 +28,6 @@ function App() {
               );
           })}
         </Routes>
-      </Router>
     </GeneralContainer>
    
     </>

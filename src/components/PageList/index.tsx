@@ -15,13 +15,24 @@ import { faUsers } from '@fortawesome/free-solid-svg-icons';
 import { faCube } from '@fortawesome/free-solid-svg-icons';
 import { faArrowsDownToPeople } from '@fortawesome/free-solid-svg-icons';
 import { faCircleQuestion } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from "react-router-dom";
 
 export function List() {
+  let navigate = useNavigate()
+
+  const handleNavigateDashboard = () => {
+    navigate("/")
+  }
+
+  const handleNavigateNotFound = () => {
+    navigate("/NotFound")
+  }
+
   return (
     <Container>
-        <CardList title="Dashboard" icon={<FontAwesomeIcon icon={ faHome } fontSize={20} color="2e1d6a"/>}/>
+        <CardList title="Dashboard" icon={<FontAwesomeIcon icon={ faHome } fontSize={20} color="2e1d6a" />} handle={handleNavigateDashboard} />
 
-        <CardList title="Produtos" icon={<FontAwesomeIcon icon={ faTag } fontSize={20} color="2e1d6a"/>}/>
+        <CardList title="Produtos" icon={<FontAwesomeIcon icon={ faTag } fontSize={20} color="2e1d6a"/>}  handle={handleNavigateNotFound} />
 
         <CardList title="Área de Membros" icon={<FontAwesomeIcon icon={ faGraduationCap } fontSize={20} color="2e1d6a"/>}/>
 

@@ -26,6 +26,6 @@ export const ContainerOrders = styled.div`
     flex-direction: column;
     width: 100%;
     background: var(--white);
-    min-height: 68vh;
+    min-height: 66vh;
     overflow-y: scroll;
 `;

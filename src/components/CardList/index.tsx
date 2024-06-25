@@ -3,12 +3,14 @@ import { Container, Title } from "./styles";
 
 interface CardProps {
     title: string,
-    icon?: ReactNode
+    icon?: ReactNode,
+    handle?: () => void
 }
 
 export function CardList({...props} : CardProps) {
+
   return (
-    <Container>
+    <Container onClick={props.handle}>
       <div className="icon">
         {props.icon}
       </div>
