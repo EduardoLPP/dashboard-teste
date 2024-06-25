@@ -24,7 +24,7 @@ export const GlobalStyles = createGlobalStyle`
     }
     
     body, input, textarea, button{
-        font-family: "Bebas Neue", monospace;
+        font-family: "Ubuntu", sans-serif;
         font-weight: 400;
     }
 
