@@ -7,6 +7,7 @@ export const Container = styled.button`
     background: var(--gray);
     align-items: center;
     padding: ${pixelToRem(15)};
+    border: none;
 
     &:hover {
         background: var(--dark-purple);

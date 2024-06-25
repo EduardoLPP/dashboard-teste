@@ -5,7 +5,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: row;
     margin: ${pixelToRem(0, 0, 0, 0 )};
-    padding: ${pixelToRem(15)};
+    padding-left: ${pixelToRem(20)};
     justify-content: space-between;
     background: var(--purple);
 `;
