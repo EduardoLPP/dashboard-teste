@@ -38,8 +38,8 @@ export const ContainerStatus = styled.div<StatusProps>`
     display: flex;
     height: 100%;
     background: ${props => getStatusColor(props.statusId)};
-    min-width: ${pixelToRem(20)};
-    border-radius: ${pixelToRem(10)};
+    min-width: ${pixelToRem(50)};
+    border-radius: ${pixelToRem(3)};
 `;
 
 export const Cell = styled.div`
@@ -47,7 +47,7 @@ export const Cell = styled.div`
     flex-direction: row;
     width: 33%;
     padding-top: ${pixelToRem(5)};
-    justify-content: space-between;
+    justify-content: center;
 `;
 
 export const Bar = styled.div`
@@ -56,7 +56,7 @@ export const Bar = styled.div`
 
 export const TitleHeader = styled.div`
     color: var(--dark-purple);
-    margin-left: ${pixelToRem(10)};
+    font: var(--base-font);
 `;
 
 export const ContainerProducts = styled.div`

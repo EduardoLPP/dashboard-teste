@@ -4,7 +4,7 @@ import { List } from './components/PageList';
 import { GlobalStyles } from './styles/globalstyles';
 import { Container, GeneralContainer } from './styles/styles';
 import { RouteList } from './routes';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (

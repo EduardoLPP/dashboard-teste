@@ -3,10 +3,10 @@ import { pixelToRem } from "../../utils/functions";
 
 export const Container = styled.div`
     display: flex;
-    height: 70vh;
+    height: 60vh;
     width: 80vw;
-    padding-top: ${pixelToRem(50)};
-    padding-left: ${pixelToRem(50)};
+    padding-top: ${pixelToRem(30)};
+    padding-left: ${pixelToRem(70)};
 `;
 
 export const ContainerCards = styled.div`

@@ -16,7 +16,7 @@ export  function HomeDashboard() {
   return (
     <Container>
       <ContainerCards>
-      <ContainerChartStatus>
+        <ContainerChartStatus>
           <PieChart data={data} />
         </ContainerChartStatus>
         

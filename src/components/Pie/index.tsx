@@ -19,23 +19,16 @@ const PieChart: React.FC<{ data: ChartDataItem[] }> = ({ data }) => {
         },
         series: [
           {
-            name: data,
+            name: 'Access From',
             type: 'pie',
             radius: ['40%', '70%'],
             avoidLabelOverlap: false,
             itemStyle: {
-              borderRadius: 5,
-              borderWidth: 2
+              borderRadius: 2
             },
             label: {
               show: false,
-              position: 'right'
-            },
-            emphasis: {
-              label: {
-                show: true,
-                fontSize: '14',
-              }
+              position: 'center'
             },
             labelLine: {
               show: false

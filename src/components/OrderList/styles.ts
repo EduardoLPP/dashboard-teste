@@ -4,7 +4,7 @@ import { pixelToRem } from "../../utils/functions";
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 80%;
 `;
 
 export const ContainerHeader = styled.div`
@@ -26,6 +26,6 @@ export const ContainerOrders = styled.div`
     flex-direction: column;
     width: 100%;
     background: var(--white);
-    min-height: 66vh;
+    min-height: 70vh;
     overflow-y: scroll;
 `;

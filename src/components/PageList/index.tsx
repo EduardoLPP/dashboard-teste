@@ -56,17 +56,31 @@ export function List() {
 
         <CardList title="Ajuda" icon={<FontAwesomeIcon icon={ faCircleQuestion } fontSize={20} color="2e1d6a"/>}handle={handleNavigateNotFound} />
 
-        <CardList title="Dashboard" icon={<FontAwesomeIcon icon={ faHome } fontSize={20} color="2e1d6a"/>} handle={handleNavigateDashboard} />
+        <CardList title="Dashboard" icon={<FontAwesomeIcon icon={ faHome } fontSize={20} color="2e1d6a" />} handle={handleNavigateDashboard} />
 
-        <CardList title="Produtos" icon={<FontAwesomeIcon icon={ faTag } fontSize={20} color="2e1d6a"/>} handle={handleNavigateNotFound} />
+<CardList title="Produtos" icon={<FontAwesomeIcon icon={ faTag } fontSize={20} color="2e1d6a"/>}  handle={handleNavigateNotFound} />
 
-        <CardList title="Área de Membros" icon={<FontAwesomeIcon icon={ faGraduationCap } fontSize={20} color="2e1d6a"/>} handle={handleNavigateNotFound} />
+<CardList title="Área de Membros" icon={<FontAwesomeIcon icon={ faGraduationCap } fontSize={20} color="2e1d6a"/>}  handle={handleNavigateNotFound} />
 
-        <CardList title="Marketplace" icon={<FontAwesomeIcon icon={ faCartShopping } fontSize={20} color="2e1d6a"/>} handle={handleNavigateNotFound} />
+<CardList title="Marketplace" icon={<FontAwesomeIcon icon={ faCartShopping } fontSize={20} color="2e1d6a"/>}  handle={handleNavigateNotFound} />
 
-        <CardList title="Meus afiliados" icon={<FontAwesomeIcon icon={ faUser } fontSize={20} color="2e1d6a"/>} handle={handleNavigateNotFound} />
+<CardList title="Meus afiliados" icon={<FontAwesomeIcon icon={ faUser } fontSize={20} color="2e1d6a"/>}  handle={handleNavigateNotFound} />
 
-        <CardList title="Vendas" icon={<FontAwesomeIcon icon={ faChartLine } fontSize={20} color="2e1d6a"/>} handle={handleNavigateNotFound} />
+<CardList title="Vendas" icon={<FontAwesomeIcon icon={ faChartLine } fontSize={20} color="2e1d6a"/>}  handle={handleNavigateNotFound} />
+
+<CardList title="Assinaturas" icon={<FontAwesomeIcon icon={ faRetweet } fontSize={20} color="2e1d6a"/>}  handle={handleNavigateNotFound} />
+
+<CardList title="Financeiro" icon={<FontAwesomeIcon icon={ faCreditCard } fontSize={20} color="2e1d6a"/>}  handle={handleNavigateNotFound} />
+
+<CardList title="Relatórios" icon={<FontAwesomeIcon icon={ faChartSimple } fontSize={20} color="2e1d6a"/>}  handle={handleNavigateNotFound} />
+
+<CardList title="Colaboradores" icon={<FontAwesomeIcon icon={ faUsers } fontSize={20} color="2e1d6a"/>}  handle={handleNavigateNotFound} />
+
+<CardList title="Apps" icon={<FontAwesomeIcon icon={ faCube } fontSize={20} color="2e1d6a"/>}  handle={handleNavigateNotFound} />
+
+<CardList title="Indique e Ganhe 15%" icon={<FontAwesomeIcon icon={ faArrowsDownToPeople } fontSize={20} color="2e1d6a"/>}  handle={handleNavigateNotFound} />
+
+<CardList title="Ajuda" icon={<FontAwesomeIcon icon={ faCircleQuestion } fontSize={20} color="2e1d6a"/>}handle={handleNavigateNotFound} />
 
     </Container>
   )

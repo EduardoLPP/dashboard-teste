@@ -29,7 +29,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     :root{
-        --gray: #e2e8f0;
+        --gray: #f8f8f8;
         --white: #ffffff;
         --dark-purple: #2e1d6a;
         --purple: #805ad5;
