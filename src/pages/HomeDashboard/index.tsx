@@ -5,6 +5,7 @@ import { Orders } from "../../utils/db";
 import { CardTotalValueOrder, Container, ContainerCards, ContainerChartStatus, ContainerTopCard, ContainerTotalValue, TitleCard, TotalValue } from "./styles";
 
 export  function HomeDashboard() {
+
   const sumTotalValues = (orders: Order[]): number => {
     return orders.reduce((acc, order) => acc + order.valorTotal, 0);
   };
@@ -22,7 +23,7 @@ export  function HomeDashboard() {
         
         <CardTotalValueOrder>
           <ContainerTopCard>
-            <TitleCard>Valor total</TitleCard>
+            <TitleCard>Total</TitleCard>
           </ContainerTopCard>
         
           <ContainerTotalValue>
@@ -33,7 +34,7 @@ export  function HomeDashboard() {
 
         <CardTotalValueOrder>
           <ContainerTopCard>
-            <TitleCard>Quantidade de pedidos (un)</TitleCard>
+            <TitleCard>Quantidade</TitleCard>
           </ContainerTopCard>
         
           <ContainerTotalValue>

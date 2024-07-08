@@ -46,12 +46,13 @@ export function Order({...props} : OrderProps) {
       </ContainerHeader>
 
       {isDropdownVisible &&
-        <ContainerProducts >
+        <ContainerProducts isDropdowm={isDropdownVisible}>
           {props.products.map(prod  => (
             <ContainerProd className="body-prod">
               <Cell>  
-                <TitleHeader>{prod.nome}</TitleHeader> <TitleHeader>R$ {prod.valor}</TitleHeader>
+                <TitleHeader>{prod.nome}  </TitleHeader> <TitleHeader> R$ {prod.valor}</TitleHeader>
             </Cell>
+            
         </ContainerProd>
         ))}
       </ContainerProducts>

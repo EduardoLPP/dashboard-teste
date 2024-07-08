@@ -3,6 +3,7 @@ import { Order } from "../Order";
 import { Container, ContainerHeader, ContainerOrders, TitleOrderList } from "./styles";
 
 export function OrderList() {
+  
   return (
     <Container>
       <ContainerHeader>
@@ -17,7 +18,7 @@ export function OrderList() {
             data={order.data}
             totalValue={order.valorTotal}
             status={order.status}
-            statusId={order.statusId != undefined ? order.statusId : 0}
+            statusId={order.statusId !== undefined ? order.statusId : 0}
             client={order.cliente}
             products={order.produtos}/>
         ))}
